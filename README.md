@@ -10,21 +10,21 @@ This repository includes several bash scripts.
 ![image](https://user-images.githubusercontent.com/58728445/171679204-05d2cc49-9a3e-456c-a7c8-e4f8940f196a.png)
 
 ## Examples
-### result of ec2_up.sh  script
+### result of ec2_up.sh script
 
 ![image](https://user-images.githubusercontent.com/58728445/171681727-4b514f00-9efd-4871-a801-091db3fac4df.png)
 
 ### Result resize_vol.sh script
 
-##### Before resize
+##### Before resize volume aws console scrin
 
 ![image](https://user-images.githubusercontent.com/58728445/171683649-868e06df-2a08-4773-abb0-98916ea650fa.png)
 
-##### Output scpript
+##### Output scpript command
 
 ![image](https://user-images.githubusercontent.com/58728445/171683936-e78656b0-505d-4ef0-b3a4-a46cd8fd2733.png)
 
-##### After resize
+##### After resize scrin aws console
 
 ![image](https://user-images.githubusercontent.com/58728445/171684012-926b36b4-90d7-4ee0-8d82-0b3c3bb3abb7.png)
 
