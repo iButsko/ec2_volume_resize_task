@@ -11,8 +11,10 @@ This repository includes several bash scripts.
 
 # Examples
 - output  ec2_up.sh  script
+
 {
-    "Groups": [],
+   
+   "Groups": [],
     "Instances": [
         {
             "AmiLaunchIndex": 0,
