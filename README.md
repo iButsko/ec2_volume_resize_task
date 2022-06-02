@@ -27,3 +27,10 @@ This repository includes several bash scripts.
 ###### after resize
 
 ![image](https://user-images.githubusercontent.com/58728445/171684012-926b36b4-90d7-4ee0-8d82-0b3c3bb3abb7.png)
+
+#### result of ec2_down.sh  script
+
+##### output command
+![image](https://user-images.githubusercontent.com/58728445/171684832-47fede87-ea87-4873-922d-8dd29237acdc.png)
+##### scrin from aws concole
+![image](https://user-images.githubusercontent.com/58728445/171685057-1aa8a086-07f9-41bf-b37c-25226ed111b0.png)
