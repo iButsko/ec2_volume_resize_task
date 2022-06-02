@@ -7,4 +7,3 @@ aws ec2 describe-instance-status --instance-id ${instanceid}
 #echo "export instanceid=${instanceid}" >> ~/.bashrc
 #source ~/.bashrc
 #cat ~/.bashrc | grep instanceid
-#env |instanceid
