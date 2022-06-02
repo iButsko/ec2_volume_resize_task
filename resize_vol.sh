@@ -3,15 +3,9 @@ instanceid=$(aws ec2 describe-instances --filters "Name=tag-value,Values=ibutsko
 echo "volume size before modifying"
 aws ec2 describe-volumes --region eu-central-1 --filters Name=attachment.instance-id,Values=${instanceid} | grep Size;
 
-
-#status_check="ok"
-#while [ "$status_check" = "ok" ]
-#        do
-#                status_check=$(aws ec2 describe-instance-status --instance-id ${instanceid} --filters "Name=instance-status.status,Values=ok" --output text)
-#        done
-
 volumeid="$(aws ec2 describe-volumes  --filters "Name=attachment.instance-id,Values=${instanceid}"  --query "Volumes[*].VolumeId" --output text)";
 echo ${volumeid}
 aws ec2 modify-volume --size 25 --volume-id ${volumeid};
+sleep 30
 echo "volume size after modifying"
 aws ec2 describe-volumes --region eu-central-1 --filters Name=attachment.instance-id,Values=${instanceid} | grep Size
