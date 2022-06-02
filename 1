@@ -1,0 +1,8 @@
+#!/bin/bash
+instanceid=$(aws ec2 describe-instances --filters "Name=tag-value,Values=ibutsko-ec2" "Name=instance-state-name,Values=running,pending" --query 'Reservations[*].Instances[*].InstanceId' --output text)
+asd=${aws ec2 describe-instance-status --instance-id ${instanceid} --filters "Name=instance-status.status,Values=ok" | grep "Status": "ok"}
+while [[ ${asd} ]]
+do
+	sleep 2
+	aws ec2 describe-instance-status --instance-id ${instanceid} --filters "Name=instance-status.status,Values=ok" | grep '"Status": "ok"'
+done

@@ -1,0 +1,6 @@
+#!/bin/bash
+status_check="ok"
+while [ "$status_check" = "ok" ]
+	do
+		status_check=$(aws ec2 describe-instance-status --instance-id ${instanceid} --filters "Name=instance-status.status,Values=ok" --output text)
+	done

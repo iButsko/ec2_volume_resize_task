@@ -1,0 +1,4 @@
+#!/bin/bash
+instanceid=$(aws ec2 describe-instances --filters "Name=tag-value,Values=ibutsko-ec2" "Name=instance-state-name,Values=running" --query 'Reservations[*].Instances[*].InstanceId' --output text)
+aws ec2 terminate-instances --instance-ids ${instanceid}
+
