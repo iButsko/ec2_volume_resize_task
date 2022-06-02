@@ -20,10 +20,10 @@ This repository includes several bash scripts.
 
 ![image](https://user-images.githubusercontent.com/58728445/171683649-868e06df-2a08-4773-abb0-98916ea650fa.png)
 
-######output scpript
+###### output scpript
 
 ![image](https://user-images.githubusercontent.com/58728445/171683936-e78656b0-505d-4ef0-b3a4-a46cd8fd2733.png)
 
-######after resize
+###### after resize
 
 ![image](https://user-images.githubusercontent.com/58728445/171684012-926b36b4-90d7-4ee0-8d82-0b3c3bb3abb7.png)
