@@ -4,13 +4,13 @@ This repository includes several bash scripts.
 
 - The first one - ec2_up.sh - launched an ec2 instance using ami, sg, etc. and showing the instance ID.
 ![image](https://user-images.githubusercontent.com/58728445/171683005-1abe8202-9042-48c1-a657-060f5807293a.png)
-- The second one - resize_vol.sh - looks for ec2 by instance id and resizes EBS, in this case up to 20gb.
+- The second one - resize_vol.sh - looks for ec2 by instance id and resizes EBS, in this case up to 25 gb.
 ![image](https://user-images.githubusercontent.com/58728445/171678581-b35132b9-3110-479a-bfb6-acbdad2c8142.png)
 - The last one - ec2_down - terminate ec2 by instance id
 ![image](https://user-images.githubusercontent.com/58728445/171679204-05d2cc49-9a3e-456c-a7c8-e4f8940f196a.png)
 
 ## Examples
-##### result of ec2_up.sh  script
+#### result of ec2_up.sh  script
 
 ![image](https://user-images.githubusercontent.com/58728445/171681727-4b514f00-9efd-4871-a801-091db3fac4df.png)
 
