@@ -37,4 +37,4 @@ This repository includes several bash scripts.
 
 
 
-## P.S. I also tried to describe the check cycle in bash for System status checks and Instance status checks, but due to my lack of knowledge and time constraints, I can’t complete it right now.
+## P.S. I also tried to describe a check loop in bash to check the "SYSTEM STATUS CHECK" and the "INSTANCE STATU CHECK", so that resizing only happens when these options are "OK", but due to lack of knowledge and lack of time i cant finish it right now.
