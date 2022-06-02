@@ -34,3 +34,7 @@ This repository includes several bash scripts.
 ![image](https://user-images.githubusercontent.com/58728445/171684832-47fede87-ea87-4873-922d-8dd29237acdc.png)
 ##### Scrin from aws concole
 ![image](https://user-images.githubusercontent.com/58728445/171685057-1aa8a086-07f9-41bf-b37c-25226ed111b0.png)
+
+
+
+## P.S. I also tried to describe the check cycle in bash for System status checks and Instance status checks, but due to my lack of knowledge and time constraints, I can’t complete it right now.
